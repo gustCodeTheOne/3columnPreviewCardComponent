@@ -1,0 +1,114 @@
+/* General Properties ------------------------------------------------------------------------------------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("./fonts/LexendDeca/LexendDeca-Regular.ttf");
+}
+@font-face {
+  font-family: "Big Shoulder Display Bold";
+  src: url("./fonts/BigShoulderDisplay/BigShouldersDisplay-Bold.ttf");
+}
+.orange {
+  background-color: hsl(31, 77%, 52%);
+}
+.textOrange {
+  color: hsl(31, 77%, 52%);
+}
+.darkCyan {
+  background-color: hsl(184, 100%, 22%);
+}
+.textDarkCyan {
+  color: hsl(184, 100%, 22%);
+}
+.veryDarkCyan {
+  background-color: hsl(179, 100%, 13%);
+}
+.textVeryDarkCyan {
+  color: hsl(179, 100%, 13%);
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.content {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+section.card {
+  display: flex;
+  flex-direction: row;
+  width: 64%;
+  margin: 0px auto;
+  border-radius: 10px 10px;
+  overflow: hidden;
+  margin-top: 45px;
+}
+.col {
+  padding-top: 49px;
+  padding-bottom: 49px;
+  padding-left: 45px;
+  padding-right: 49px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #fff;
+}
+.title {
+  font-family: "Big Shoulder Display Bold", cursive;
+  font-size: 36px;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  text-transform: uppercase;
+}
+.desc {
+  font-size: 14px;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 83px;
+  line-height: 24px;
+}
+button {
+  width: 149px;
+  height: 49px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px 25px;
+}
+button:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES ------------------------------------------------------------------------------------*/
+@media (max-width: 1170px) {
+  section.card {
+    flex-direction: column;
+  }
+  .desc {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .col {
+    padding-left: 35px;
+    padding-right: 39px;
+  }
+  button {
+    font-size: 12px;
+    width: 113px;
+    height: 37px;
+  }
+  .desc {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 370px) {
+  section.card {
+    width: 100%;
+  }
+}
+/*---------------------------------------------------------------------------------------------------------*/
