@@ -51,7 +51,7 @@ section.card {
   padding-left: 45px;
   padding-right: 49px;
   font-family: "Lexend Deca", sans-serif;
-  color: #fff;
+  color: hsl(0, 0%, 95%);
 }
 .title {
   font-family: "Big Shoulder Display Bold", cursive;
@@ -71,14 +71,14 @@ button {
   height: 49px;
   font-size: 16px;
   font-weight: bold;
-  background-color: #fff;
+  background-color: hsl(0, 0%, 95%);
   border: none;
   border-radius: 25px 25px;
 }
 button:hover {
-  color: #fff;
+  color: hsl(0, 0%, 95%);
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid hsl(0, 0%, 95%);
   cursor: pointer;
 }
 
