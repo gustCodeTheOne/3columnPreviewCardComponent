@@ -27,8 +27,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution - Frontendmentor](https://www.frontendmentor.io/solutions/3-column-card-preview-component-with-html-and-css-flexbox-KAhHNuo8g)
+- Live Site URL: [Live site](https://gustcodetheone.github.io/3columnPreviewCardComponent/)
 
 ## My process
 
